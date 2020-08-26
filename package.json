@@ -1,7 +1,7 @@
 {
   "name": "browserify-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "A template for getting started with browserify quickly.",
   "scripts": {
     "build": "browserify src -p esmify > lib/bundle.min.js",
     "start": "budo src:lib/bundle.min.js --live -- -p esmify"
