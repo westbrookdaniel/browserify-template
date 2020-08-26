@@ -1,0 +1,17 @@
+{
+  "name": "browserify-template",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "browserify src -p esmify > lib/bundle.min.js",
+    "start": "budo src:lib/bundle.min.js --live -- -p esmify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "budo": "^11.6.4",
+    "browserify": "^16.5.2",
+    "esmify": "^2.1.1"
+  }
+}
